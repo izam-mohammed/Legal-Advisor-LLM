@@ -1,0 +1,6 @@
+langchain
+pymupdf
+huggingface-hub
+faiss-cpu
+sentence-transformers
+openai
