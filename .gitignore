@@ -54,3 +54,5 @@ build/
 *.swp
 *.vscode-task.json
 *.vscode-workspace.json
+
+saved_models/
