@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Data and model files
+data/
+models/
+
+# Logs
+logs/
+
+# Compiled files
+*.log
+*.csv
+*.tsv
+*.npz
+*.pkl
+
+# Jupyter Notebook autosave and checkpoints
+.ipynb_checkpoints/
+
+# Tensorboard logs
+tensorboard/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Package files
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+*.eggs
+*.build
+*.sdist
+
+# Miscellaneous
+.DS_Store
+.cache/
+.history/
+*.bak
+*.swp
+*.vscode-task.json
+*.vscode-workspace.json
