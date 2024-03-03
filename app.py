@@ -15,7 +15,17 @@ elif selected_chatbot == "Llama 2":
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
-
+st.info("""
+**Legal Advisor Bot:**
+- **Objective:** Develop a conversational AI chatbot to provide legal advice and assistance. 🤖💼
+- **Technology Stack:** Utilizes Streamlit for the user interface, integrates with external chatbot APIs (such as OpenAI and Llama 2) for natural language processing. 🖥️📡
+- **Features:**
+  - Allows users to select between different chatbot models for varied responses. 🔄
+  - Provides a chat history feature to track user interactions. 📝
+  - Displays loading spinner while fetching responses from the selected chatbot. ⏳
+  - Offers a user-friendly interface for asking legal questions. 💬
+- **Emphasis:** Focuses on simplicity, efficiency, and accessibility in delivering legal information and support through conversational AI. 🎯
+        """)
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
