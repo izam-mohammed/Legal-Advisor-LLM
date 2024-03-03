@@ -1,6 +1,13 @@
 langchain
 pymupdf
-huggingface-hub
-faiss-cpu
+pinecone-client
 sentence-transformers
+pypdf
+langchain_pinecone
+ctransformers
 openai
+python-dotenv
+# faiss-gpu==1.7.2
+streamlit
+langchain-community
+langchain-openai
