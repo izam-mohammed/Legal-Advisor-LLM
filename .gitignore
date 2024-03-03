@@ -56,3 +56,4 @@ build/
 *.vscode-workspace.json
 
 saved_models/
+.env
